@@ -1,0 +1,76 @@
+.metrics-card {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bar-container {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.bar-fill {
+  height: 100%;
+  background: #1e56f0;
+  border-radius: 5px;
+}
+
+.metrics-info p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.alert {
+  color: red;
+  font-weight: 600;
+}
+.metrics-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin: 15px auto;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.metrics-card:hover {
+  transform: scale(1.02);
+}
+
+.metric {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.confidence-section {
+  margin-top: 15px;
+}
+
+.confidence-bar {
+  width: 100%;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.confidence-fill {
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.confidence-label {
+  font-size: 13px;
+  color: #555;
+  margin-top: 5px;
+  text-align: right;
+}

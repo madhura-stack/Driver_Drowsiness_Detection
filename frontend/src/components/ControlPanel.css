@@ -1,0 +1,55 @@
+.control-panel {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 95%;
+  max-width: 950px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-btn {
+  background-color: #007bff;
+}
+.stop-btn {
+  background-color: #007bff;
+}
+.alarm-btn {
+  background-color:#007bff;
+}
+.petrol-btn {
+  background-color: #007bff;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.quick-settings h4 {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}

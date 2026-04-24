@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f9fafb;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2563eb;
+  color: white;
+  padding: 16px 24px;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.main-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.camera-frame img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.alert-btn {
+  background: #ef4444;
+  color: white;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.status-list {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.meter {
+  background: #e5e7eb;
+  border-radius: 8px;
+  height: 10px;
+  margin: 10px 0;
+}
+
+.meter-bar {
+  height: 10px;
+  border-radius: 8px;
+}
